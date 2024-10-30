@@ -1,0 +1,249 @@
+
+
+.mainbg-img {
+  width: 1200px;
+  
+}
+ 
+.header {
+  position: relative;
+  /*親要素にrelative*/
+    width: 1200px;
+      text-align: center;
+}
+     
+.header-text {
+  position: absolute;
+    /*重ねたい子要素にabsolute*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    /*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%, -50%);
+    /*ベンダープレフィックス*/
+
+  
+  width: 1200px;
+    height: 100%;
+    text-align: center;
+    margin-top: 150px;
+
+    font-weight: bold;
+    
+      color: rgba(0, 0, 0, 0);
+    
+      text-shadow: 3px 3px 0 rgb(5, 246, 238);
+    
+      -webkit-text-stroke: 1px #251717;
+      text-stroke: 1px #88888807;
+
+   
+}
+
+
+.mainvisual {
+  width: 1200px;
+  height: 100%;
+  background-color: rgba(240, 255, 37, 0.4);
+
+    /* 水平方向の中央揃え */
+     text-align: center;
+    
+}
+
+.images {
+  width: 1200px;
+}
+
+.content {
+  background-color: rgba(255, 230, 0, 0.5);
+  width: 1200px;
+}
+ 
+.content-title {
+  
+  width: 1200px;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+
+.kenshu-img {
+  width: 550px;
+  margin-left: 30px;
+  margin-right: 60px;
+margin-bottom: 20px;
+  
+}
+.kenshu {
+  display: flex;
+  align-items: center;
+}
+
+.chishiki-img {
+  width: 550px;
+  margin-left: 65px;
+}
+.chishiki {
+  display: flex;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.tasting-img {
+  width: 550px;
+  margin-left: 30px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.tasting {
+  display: flex;
+  align-items: center;
+}
+   
+
+.news-title {
+  width: 1200px;
+  text-align: center;
+}
+.news-img {
+  width: 300px;
+  margin-left: 15px;
+}
+.news-left {
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.news-right {
+  margin-left: 20px;
+    margin-right: 100px;
+}
+.news-all {
+  width: 1200px;
+    background-color: rgba(240, 255, 37, 0.4);
+}
+
+.news {
+  display: flex;
+    align-items: center;
+  
+}
+
+.access-all {
+  width: 1200px;
+    background-color: rgba(255, 230, 0, 0.5);
+}
+
+.access {
+  display: flex;
+    align-items: center;
+    width: 1200px;
+}
+.access-title {
+text-align: center;
+}
+
+.access-name {
+  margin-bottom: 120px;
+  margin-left: 60px;
+}
+.access-point {
+  margin-bottom: 120px;
+  margin-left: 50px;
+}
+.map {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+ width: 50px;
+}
+
+
+.contact-all {
+  width: 1200px;
+    background-color: rgba(240, 255, 37, 0.4);
+}
+
+.contact {
+  width: 1200px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.form-all {
+  width: fit-content;
+    margin: auto;
+margin-left: 360px;
+
+    label {
+display: inline-block;
+  width: 300px;
+  vertical-align: top;
+    }
+
+       
+       
+}
+ .sentakushi {
+   display: flex;
+   align-items: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* .form {
+  display: flex;
+    align-items: center;
+}
+
+.form-name {
+  margin-left: 340px;
+  
+    margin-top: 70px;
+    line-height: 2em
+}
+
+
+.douki {
+    line-height: 79px
+}
+.shousai {
+  line-height: 170px
+}
+
+.form-imput {
+ 
+  margin-left: 50px;
+  line-height: 2em;
+  margin-top: 50px;
+
+
+} */
+
+.button {
+  width: 1200px;
+    text-align: center;
+   margin-top: 50px;
+      margin-bottom: 150px;
+}
+
+
+.footer {
+  width: 1200px;
+  text-align: center;
+}
+
+
+
+  
